@@ -10,6 +10,7 @@ interface Recipe {
   category: string;
 }
 
+
 export default function AddRecipePage() {
   const [recipe, setRecipe] = useState<Recipe>({
     name: "",
